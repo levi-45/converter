@@ -35,6 +35,7 @@ textarea {
     font-family: Consolas, Monaco, monospace;
     font-size: 13px;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 .button-group {
     margin: 15px 0;
@@ -53,6 +54,10 @@ button {
 button:hover {
     background-color: #45a049;
 }
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
 .radio-group {
     margin: 15px 0;
     text-align: center;
@@ -60,6 +65,7 @@ button:hover {
 .radio-group label {
     margin: 0 10px;
     font-size: 14px;
+    display: inline-block;
 }
 .footer {
     text-align: center;
@@ -75,7 +81,7 @@ button:hover {
     text-decoration: underline;
 }
 .donate-btn {
-    background-color: #ccf2ff;
+    background-color: #0066cc;
     color: white;
     padding: 8px 15px;
     border-radius: 4px;
@@ -84,7 +90,7 @@ button:hover {
     margin: 10px 5px;
 }
 .donate-btn:hover {
-    background-color: #70c274;
+    background-color: #004499;
 }
 .info-text {
     font-size: 13px;
