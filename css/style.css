@@ -5,6 +5,7 @@ body {
     padding: 20px;
     color: #333;
 }
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -13,88 +14,201 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 h1 {
     color: #0066cc;
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
 }
+
 .converter-box {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.radio-group {
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.radio-group label:hover {
+    background-color: #f0f0f0;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 textarea {
     width: 100%;
     height: 200px;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-family: Consolas, Monaco, monospace;
     font-size: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     box-sizing: border-box;
+    background-color: white;
+    resize: vertical;
 }
+
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
 .button-group {
-    margin: 15px 0;
+    margin: 20px 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
+
 button {
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 8px 15px;
-    margin: 0 5px;
+    padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
+    min-width: 140px;
+    transition: background-color 0.3s ease;
 }
+
 button:hover {
     background-color: #45a049;
+    transform: translateY(-1px);
 }
+
+button:active {
+    transform: translateY(0);
+}
+
 button:disabled {
     background-color: #cccccc;
     cursor: not-allowed;
+    transform: none;
 }
-.radio-group {
-    margin: 15px 0;
-    text-align: center;
-}
-.radio-group label {
-    margin: 0 10px;
-    font-size: 14px;
-    display: inline-block;
-}
+
 .footer {
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
     color: #666;
 }
+
 .footer a {
     color: #0066cc;
     text-decoration: none;
 }
+
 .footer a:hover {
     text-decoration: underline;
 }
+
 .donate-btn {
     background-color: #0066cc;
     color: white;
-    padding: 8px 15px;
+    padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
     display: inline-block;
-    margin: 10px 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
 }
+
 .donate-btn:hover {
     background-color: #004499;
+    text-decoration: none;
 }
+
 .info-text {
     font-size: 13px;
     color: #666;
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        padding: 15px;
+    }
+    
+    .converter-box {
+        padding: 15px;
+    }
+    
+    .radio-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .radio-group label {
+        width: 200px;
+        justify-content: center;
+    }
+    
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button {
+        width: 200px;
+    }
+    
+    textarea {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    .radio-group label {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    button {
+        min-width: 120px;
+        padding: 8px 15px;
+    }
 }

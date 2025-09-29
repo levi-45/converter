@@ -3,7 +3,7 @@
 
 Feel free to fork this project and submit pull requests for any improvements.
 
-## 📞 Support
+## 📞 Support & Links
 
 - [Visit Satellite Forum](https://satellite-forum.com/)
 - [Buy Me a Coffee](https://ko-fi.com/levi45)
@@ -11,3 +11,7 @@ Feel free to fork this project and submit pull requests for any improvements.
 ## ⚖️ License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+*Made with ❤️ for the IPTV and satellite community*
