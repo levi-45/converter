@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levi45 IPTV Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Levi45 IPTV Converter</h1>
+        
+        <div class="converter-box">
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="conversion" value="enigma2" checked> Enigma2 Userbouquet
+                </label>            
+                <label>
+                    <input type="radio" name="conversion" value="extract"> Extract URLs Only
+                </label>
+                <label>
+                    <input type="radio" name="conversion" value="simple"> Simple M3U Format
+                </label>
+                <label>
+                    <input type="radio" name="conversion" value="extended"> Extended M3U Format
+                </label>
+            </div>
+            
+            <textarea id="inputPlaylist" placeholder="Paste your M3U playlist here..."></textarea>
+            
+            <div class="button-group">
+                <button id="convertBtn">Convert Playlist</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+            
+            <textarea id="outputPlaylist" placeholder="Converted playlist will appear here..." readonly></textarea>
+            
+            <div class="button-group">
+                <button id="downloadBtn" disabled>Download M3U File</button>
+                <button id="downloadBouquetBtn" disabled>Download Userbouquet</button>
+            </div>
+            
+            <p class="info-text" id="conversionInfo"></p>
+        </div>
+        
+        <div class="footer">
+            <a href="https://satellite-forum.com/" target="_blank" class="donate-btn">Visit Satellite Forum</a> | 
+            <a href="https://ko-fi.com/levi45" target="_blank" class="donate-btn">Buy Me a Coffee</a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

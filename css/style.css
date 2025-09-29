@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #0066cc;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.converter-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.button-group {
+    margin: 15px 0;
+    text-align: center;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.radio-group {
+    margin: 15px 0;
+    text-align: center;
+}
+.radio-group label {
+    margin: 0 10px;
+    font-size: 14px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666;
+}
+.footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.donate-btn {
+    background-color: #ccf2ff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+}
+.donate-btn:hover {
+    background-color: #70c274;
+}
+.info-text {
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
