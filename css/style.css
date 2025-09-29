@@ -144,17 +144,23 @@ button:disabled {
     margin: 5px;
 }
 
-.donate-btn:hover {
-    background-color: #004499;
-    text-decoration: none;
-}
-
-.info-text {
-    font-size: 13px;
-    color: #666;
-    margin-top: 15px;
-    text-align: center;
-    font-style: italic;
+        .donate-btn {
+            background-color: #ccf2ff;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px 5px;
+        }
+        .donate-btn:hover {
+            background-color: #70c274;
+        }
+        .info-text {
+            font-size: 13px;
+            color: #666;
+            margin-top: 10px;
+            text-align: center;
 }
 
 /* Responsive design */
