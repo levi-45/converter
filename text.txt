@@ -1,0 +1,13 @@
+
+## 🤝 Contributing
+
+Feel free to fork this project and submit pull requests for any improvements.
+
+## 📞 Support
+
+- [Visit Satellite Forum](https://satellite-forum.com/)
+- [Buy Me a Coffee](https://ko-fi.com/levi45)
+
+## ⚖️ License
+
+This project is open source and available under the [MIT License](LICENSE).
